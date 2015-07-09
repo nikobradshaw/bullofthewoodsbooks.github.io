@@ -965,3 +965,5 @@ a.loadmore { display:block; position:relative; margin: 3em auto 0 auto; max-widt
 	/* BLOG */
 	.mejs-audio { max-width: 280px; }
 }
+/* CUSTOM CODE NOT PART OF ORIGINAL THEME. Author Image Fix */
+.img-of-author { display:block; margin: 0 auto; max-height: 450px; }
