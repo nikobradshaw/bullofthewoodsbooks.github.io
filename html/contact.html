@@ -156,19 +156,16 @@
                                       <!-- .contact-form -->
                                       <div class="contact-form">
                                         
-                                          <form id="contact-form" action="send-mail.php" method="post">
-                                            
-                                            <!-- enter your e-mail adress -->
-                                            <input type="hidden" id="to" name="to" value="civishjr@botwb.com">
-                                            
-                                            <p>
+										<form action="https://formspree.io/nik@nbb.io"
+											  method="POST">
+											<p>
                                               <label for="name">Your Name</label>
                                               <input type="text" name="name" id="name" class="required">
                                             </p>
                                             
                                             <p>
                                               <label for="email">Your Email</label>
-                                              <input type="text" name="email" id="email" class="required email">
+                                              <input type="email" name="_replyto" id="email" class="required email">
                                             </p>
                                             
                                             <p>
@@ -179,14 +176,10 @@
                                             <p>
                                               <label for="message">Your Message</label>
                                               <textarea name="message" id="message" class="required"></textarea>
-                                            </p>
-                                           
-                                            <p>
-                                              <input type="submit" value="Send it">
-                                              <img class="ajax-loader" src="images/bckg/loader_light.gif" alt="Sending ...">
-                                            </p>
-                                            
-                                          </form>
+											</p>
+											<input type="text" name="_gotcha" style="display:none" />
+											<input type="submit" value="Send">
+										</form> 
                                           
                                       </div>
                                       <!-- .contact-form -->
